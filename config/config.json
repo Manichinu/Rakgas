@@ -1,0 +1,451 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "global-custom-features-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/globalCustomFeatures/GlobalCustomFeaturesApplicationCustomizer.js",
+          "manifest": "./src/extensions/globalCustomFeatures/GlobalCustomFeaturesApplicationCustomizer.manifest.json"
+        }
+      ]
+    },
+    "about-department-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/aboutDepartment/AboutDepartmentWebPart.js",
+          "manifest": "./src/webparts/aboutDepartment/AboutDepartmentWebPart.manifest.json"
+        }
+      ]
+    },
+    "add-contacts-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/addContacts/AddContactsWebPart.js",
+          "manifest": "./src/webparts/addContacts/AddContactsWebPart.manifest.json"
+        }
+      ]
+    },
+    "announcements-rm-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/announcementsRm/AnnouncementsRmWebPart.js",
+          "manifest": "./src/webparts/announcementsRm/AnnouncementsRmWebPart.manifest.json"
+        }
+      ]
+    },
+    "announcements-vm-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/announcementsVm/AnnouncementsVmWebPart.js",
+          "manifest": "./src/webparts/announcementsVm/AnnouncementsVmWebPart.manifest.json"
+        }
+      ]
+    },
+    "ceo-message-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/ceoMessage/CeoMessageWebPart.js",
+          "manifest": "./src/webparts/ceoMessage/CeoMessageWebPart.manifest.json"
+        }
+      ]
+    },
+    "ceo-message-rm-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/ceoMessageRm/CeoMessageRmWebPart.js",
+          "manifest": "./src/webparts/ceoMessageRm/CeoMessageRmWebPart.manifest.json"
+        }
+      ]
+    },
+    "contact-directory-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/contactDirectory/ContactDirectoryWebPart.js",
+          "manifest": "./src/webparts/contactDirectory/ContactDirectoryWebPart.manifest.json"
+        }
+      ]
+    },
+    "content-editor-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/contentEditor/ContentEditorWebPart.js",
+          "manifest": "./src/webparts/contentEditor/ContentEditorWebPart.manifest.json"
+        }
+      ]
+    },
+    "department-gallery-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/departmentGallery/DepartmentGalleryWebPart.js",
+          "manifest": "./src/webparts/departmentGallery/DepartmentGalleryWebPart.manifest.json"
+        }
+      ]
+    },
+    "department-key-contacts-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/departmentKeyContacts/DepartmentKeyContactsWebPart.js",
+          "manifest": "./src/webparts/departmentKeyContacts/DepartmentKeyContactsWebPart.manifest.json"
+        }
+      ]
+    },
+    "department-key-people-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/departmentKeyPeople/DepartmentKeyPeopleWebPart.js",
+          "manifest": "./src/webparts/departmentKeyPeople/DepartmentKeyPeopleWebPart.manifest.json"
+        }
+      ]
+    },
+    "department-quick-link-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/departmentQuickLink/DepartmentQuickLinkWebPart.js",
+          "manifest": "./src/webparts/departmentQuickLink/DepartmentQuickLinkWebPart.manifest.json"
+        }
+      ]
+    },
+    "department-services-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/departmentServices/DepartmentServicesWebPart.js",
+          "manifest": "./src/webparts/departmentServices/DepartmentServicesWebPart.manifest.json"
+        }
+      ]
+    },
+    "dept-gallery-grid-view-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/deptGalleryGridView/DeptGalleryGridViewWebPart.js",
+          "manifest": "./src/webparts/deptGalleryGridView/DeptGalleryGridViewWebPart.manifest.json"
+        }
+      ]
+    },
+    "dept-gallery-vm-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/deptGalleryVm/DeptGalleryVmWebPart.js",
+          "manifest": "./src/webparts/deptGalleryVm/DeptGalleryVmWebPart.manifest.json"
+        }
+      ]
+    },
+    "events-announcements-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/eventsAnnouncements/EventsAnnouncementsWebPart.js",
+          "manifest": "./src/webparts/eventsAnnouncements/EventsAnnouncementsWebPart.manifest.json"
+        }
+      ]
+    },
+    "events-vm-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/eventsVm/EventsVmWebPart.js",
+          "manifest": "./src/webparts/eventsVm/EventsVmWebPart.manifest.json"
+        }
+      ]
+    },
+    "gallery-grid-view-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/galleryGridView/GalleryGridViewWebPart.js",
+          "manifest": "./src/webparts/galleryGridView/GalleryGridViewWebPart.manifest.json"
+        }
+      ]
+    },
+    "gallery-social-media-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/gallerySocialMedia/GallerySocialMediaWebPart.js",
+          "manifest": "./src/webparts/gallerySocialMedia/GallerySocialMediaWebPart.manifest.json"
+        }
+      ]
+    },
+    "gallery-vm-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/galleryVm/GalleryVmWebPart.js",
+          "manifest": "./src/webparts/galleryVm/GalleryVmWebPart.manifest.json"
+        }
+      ]
+    },
+    "hero-banner-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/heroBanner/HeroBannerWebPart.js",
+          "manifest": "./src/webparts/heroBanner/HeroBannerWebPart.manifest.json"
+        }
+      ]
+    },
+    "hero-banner-rm-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/heroBannerRm/HeroBannerRmWebPart.js",
+          "manifest": "./src/webparts/heroBannerRm/HeroBannerRmWebPart.manifest.json"
+        }
+      ]
+    },
+    "hero-banner-vm-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/heroBannerVm/HeroBannerVmWebPart.js",
+          "manifest": "./src/webparts/heroBannerVm/HeroBannerVmWebPart.manifest.json"
+        }
+      ]
+    },
+    "highlights-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/highlights/HighlightsWebPart.js",
+          "manifest": "./src/webparts/highlights/HighlightsWebPart.manifest.json"
+        }
+      ]
+    },
+    "my-day-routine-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/myDayRoutine/MyDayRoutineWebPart.js",
+          "manifest": "./src/webparts/myDayRoutine/MyDayRoutineWebPart.manifest.json"
+        }
+      ]
+    },
+    "my-personal-quick-link-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/myPersonalQuickLink/MyPersonalQuickLinkWebPart.js",
+          "manifest": "./src/webparts/myPersonalQuickLink/MyPersonalQuickLinkWebPart.manifest.json"
+        }
+      ]
+    },
+    "my-recent-files-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/myRecentFiles/MyRecentFilesWebPart.js",
+          "manifest": "./src/webparts/myRecentFiles/MyRecentFilesWebPart.manifest.json"
+        }
+      ]
+    },
+    "my-team-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/myTeam/MyTeamWebPart.js",
+          "manifest": "./src/webparts/myTeam/MyTeamWebPart.manifest.json"
+        }
+      ]
+    },
+    "my-team-page-header-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/myTeamPageHeader/MyTeamPageHeaderWebPart.js",
+          "manifest": "./src/webparts/myTeamPageHeader/MyTeamPageHeaderWebPart.manifest.json"
+        }
+      ]
+    },
+    "navigations-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/navigations/NavigationsWebPart.js",
+          "manifest": "./src/webparts/navigations/NavigationsWebPart.manifest.json"
+        }
+      ]
+    },
+    "news-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/news/NewsWebPart.js",
+          "manifest": "./src/webparts/news/NewsWebPart.manifest.json"
+        }
+      ]
+    },
+    "news-category-based-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/newsCategoryBased/NewsCategoryBasedWebPart.js",
+          "manifest": "./src/webparts/newsCategoryBased/NewsCategoryBasedWebPart.manifest.json"
+        }
+      ]
+    },
+    "news-rm-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/newsRm/NewsRmWebPart.js",
+          "manifest": "./src/webparts/newsRm/NewsRmWebPart.manifest.json"
+        }
+      ]
+    },
+    "news-vm-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/newsVm/NewsVmWebPart.js",
+          "manifest": "./src/webparts/newsVm/NewsVmWebPart.manifest.json"
+        }
+      ]
+    },
+    "organizatin-chart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/organizatinChart/OrganizatinChartWebPart.js",
+          "manifest": "./src/webparts/organizatinChart/OrganizatinChartWebPart.manifest.json"
+        }
+      ]
+    },
+    "policies-procedures-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/policiesProcedures/PoliciesProceduresWebPart.js",
+          "manifest": "./src/webparts/policiesProcedures/PoliciesProceduresWebPart.manifest.json"
+        }
+      ]
+    },
+    "quick-link-manager-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/quickLinkManager/QuickLinkManagerWebPart.js",
+          "manifest": "./src/webparts/quickLinkManager/QuickLinkManagerWebPart.manifest.json"
+        }
+      ]
+    },
+    "weather-currency-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/weatherCurrency/WeatherCurrencyWebPart.js",
+          "manifest": "./src/webparts/weatherCurrency/WeatherCurrencyWebPart.manifest.json"
+        }
+      ]
+    },
+    "footer-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/footer/FooterWebPart.js",
+          "manifest": "./src/webparts/footer/FooterWebPart.manifest.json"
+        }
+      ]
+    },
+    "new-quick-link-manager-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/newQuickLinkManager/NewQuickLinkManagerWebPart.js",
+          "manifest": "./src/webparts/newQuickLinkManager/NewQuickLinkManagerWebPart.manifest.json"
+        }
+      ]
+    },
+    "global-header-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/globalHeader/GlobalHeaderWebPart.js",
+          "manifest": "./src/webparts/globalHeader/GlobalHeaderWebPart.manifest.json"
+        }
+      ]
+    },
+    "global-footer-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/globalFooter/GlobalFooterWebPart.js",
+          "manifest": "./src/webparts/globalFooter/GlobalFooterWebPart.manifest.json"
+        }
+      ]
+    },
+    "hseevents-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/hseevents/HseeventsWebPart.js",
+          "manifest": "./src/webparts/hseevents/HseeventsWebPart.manifest.json"
+        }
+      ]
+    },
+    "hseeventvm-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/hseeventvm/HseeventvmWebPart.js",
+          "manifest": "./src/webparts/hseeventvm/HseeventvmWebPart.manifest.json"
+        }
+      ]
+    },
+    "hseeventrm-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/hseeventrm/HseeventrmWebPart.js",
+          "manifest": "./src/webparts/hseeventrm/HseeventrmWebPart.manifest.json"
+        }
+      ]
+    },
+    "recognition-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/recognition/RecognitionWebPart.js",
+          "manifest": "./src/webparts/recognition/RecognitionWebPart.manifest.json"
+        }
+      ]
+    },
+    "document-library-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/documentLibrary/DocumentLibraryWebPart.js",
+          "manifest": "./src/webparts/documentLibrary/DocumentLibraryWebPart.manifest.json"
+        }
+      ]
+    },
+    "recognition-rm-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/recognitionRm/RecognitionRmWebPart.js",
+          "manifest": "./src/webparts/recognitionRm/RecognitionRmWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GlobalCustomFeaturesApplicationCustomizerStrings": "lib/extensions/globalCustomFeatures/loc/{locale}.js",
+    "AboutDepartmentWebPartStrings": "lib/webparts/aboutDepartment/loc/{locale}.js",
+    "AddContactsWebPartStrings": "lib/webparts/addContacts/loc/{locale}.js",
+    "AnnouncementsRmWebPartStrings": "lib/webparts/announcementsRm/loc/{locale}.js",
+    "AnnouncementsVmWebPartStrings": "lib/webparts/announcementsVm/loc/{locale}.js",
+    "CeoMessageWebPartStrings": "lib/webparts/ceoMessage/loc/{locale}.js",
+    "CeoMessageRmWebPartStrings": "lib/webparts/ceoMessageRm/loc/{locale}.js",
+    "ContactDirectoryWebPartStrings": "lib/webparts/contactDirectory/loc/{locale}.js",
+    "ContentEditorWebPartStrings": "lib/webparts/contentEditor/loc/{locale}.js",
+    "DepartmentGalleryWebPartStrings": "lib/webparts/departmentGallery/loc/{locale}.js",
+    "DepartmentKeyContactsWebPartStrings": "lib/webparts/departmentKeyContacts/loc/{locale}.js",
+    "DepartmentKeyPeopleWebPartStrings": "lib/webparts/departmentKeyPeople/loc/{locale}.js",
+    "DepartmentQuickLinkWebPartStrings": "lib/webparts/departmentQuickLink/loc/{locale}.js",
+    "DepartmentServicesWebPartStrings": "lib/webparts/departmentServices/loc/{locale}.js",
+    "DeptGalleryGridViewWebPartStrings": "lib/webparts/deptGalleryGridView/loc/{locale}.js",
+    "DeptGalleryVmWebPartStrings": "lib/webparts/deptGalleryVm/loc/{locale}.js",
+    "EventsAnnouncementsWebPartStrings": "lib/webparts/eventsAnnouncements/loc/{locale}.js",
+    "EventsVmWebPartStrings": "lib/webparts/eventsVm/loc/{locale}.js",
+    "GalleryGridViewWebPartStrings": "lib/webparts/galleryGridView/loc/{locale}.js",
+    "GallerySocialMediaWebPartStrings": "lib/webparts/gallerySocialMedia/loc/{locale}.js",
+    "GalleryVmWebPartStrings": "lib/webparts/galleryVm/loc/{locale}.js",
+    "HeroBannerWebPartStrings": "lib/webparts/heroBanner/loc/{locale}.js",
+    "HeroBannerRmWebPartStrings": "lib/webparts/heroBannerRm/loc/{locale}.js",
+    "HeroBannerVmWebPartStrings": "lib/webparts/heroBannerVm/loc/{locale}.js",
+    "HighlightsWebPartStrings": "lib/webparts/highlights/loc/{locale}.js",
+    "MyDayRoutineWebPartStrings": "lib/webparts/myDayRoutine/loc/{locale}.js",
+    "MyPersonalQuickLinkWebPartStrings": "lib/webparts/myPersonalQuickLink/loc/{locale}.js",
+    "MyRecentFilesWebPartStrings": "lib/webparts/myRecentFiles/loc/{locale}.js",
+    "MyTeamWebPartStrings": "lib/webparts/myTeam/loc/{locale}.js",
+    "MyTeamPageHeaderWebPartStrings": "lib/webparts/myTeamPageHeader/loc/{locale}.js",
+    "NavigationsWebPartStrings": "lib/webparts/navigations/loc/{locale}.js",
+    "NewsWebPartStrings": "lib/webparts/news/loc/{locale}.js",
+    "NewsCategoryBasedWebPartStrings": "lib/webparts/newsCategoryBased/loc/{locale}.js",
+    "NewsRmWebPartStrings": "lib/webparts/newsRm/loc/{locale}.js",
+    "NewsVmWebPartStrings": "lib/webparts/newsVm/loc/{locale}.js",
+    "OrganizatinChartWebPartStrings": "lib/webparts/organizatinChart/loc/{locale}.js",
+    "PoliciesProceduresWebPartStrings": "lib/webparts/policiesProcedures/loc/{locale}.js",
+    "QuickLinkManagerWebPartStrings": "lib/webparts/quickLinkManager/loc/{locale}.js",
+    "WeatherCurrencyWebPartStrings": "lib/webparts/weatherCurrency/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "FooterWebPartStrings": "lib/webparts/footer/loc/{locale}.js",
+    "NewQuickLinkManagerWebPartStrings": "lib/webparts/newQuickLinkManager/loc/{locale}.js",
+    "GlobalHeaderWebPartStrings": "lib/webparts/globalHeader/loc/{locale}.js",
+    "GlobalFooterWebPartStrings": "lib/webparts/globalFooter/loc/{locale}.js",
+    "HseeventsWebPartStrings": "lib/webparts/hseevents/loc/{locale}.js",
+    "HseeventvmWebPartStrings": "lib/webparts/hseeventvm/loc/{locale}.js",
+    "HseeventrmWebPartStrings": "lib/webparts/hseeventrm/loc/{locale}.js",
+    "RecognitionWebPartStrings": "lib/webparts/recognition/loc/{locale}.js",
+    "DocumentLibraryWebPartStrings": "lib/webparts/documentLibrary/loc/{locale}.js",
+    "RecognitionRmWebPartStrings": "lib/webparts/recognitionRm/loc/{locale}.js"
+  }
+}
